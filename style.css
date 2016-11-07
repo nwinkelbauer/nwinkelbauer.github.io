@@ -1,0 +1,49 @@
+body {
+	margin: 0;
+}
+body div.header { 
+	position: relative;
+	width: 100%;
+	// height: 400px;
+	// background: white; /* For browsers that do not support gradients */
+ //    background: -webkit-linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.3) 40%, rgba(255,255,255,0) 95%); /* For Safari 5.1 to 6.0 */
+ //    background: -o-linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.3) 40%, rgba(255,255,255,0) 95%); /* For Opera 11.1 to 12.0 */
+ //    background: -moz-linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.3) 40%, rgba(255,255,255,0) 95%); /* For Firefox 3.6 to 15 */
+ //    background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.3) 40%, rgba(255,255,255,0) 95%); /* Standard syntax */
+}
+body div.header h1 {
+	width: 100%;
+	text-align: center;
+	font-size: 80px;
+	position: absolute;
+    top: 40px;
+    margin: 0;
+}
+body div.desc {
+	width: 100%;
+	text-align: center;
+	position: absolute;
+    top: 200px;
+	font-family: Georgia, serif;
+}
+body div.desc p {
+	line-height: 1;
+	margin: 10px;
+}
+body div.desc p:nth-child(1) { /* position */
+	font-size: 43px;
+	margin-bottom: 15px;
+}
+body div.desc p:nth-child(2) { /* company */
+	font-size: 24px;
+}
+body div.desc p:nth-child(3) { /* team */
+	font-size: 16px;
+}
+body div.desc address {
+	margin-top: 68px;
+}
+body div.desc address a {
+	font-style: normal;
+    font-size: 24px;
+}
